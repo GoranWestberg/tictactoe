@@ -4,5 +4,5 @@
 /**
  * 
  */
-module pruebas {
+module tictactoe {
 }
