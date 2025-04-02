@@ -85,8 +85,8 @@ public class TicTacToe {
 			isValid = false;
 		}
 		
-        ArrayList<Character> validLetters = new ArrayList<>(Arrays.asList('A', 'B', 'C'));
-        ArrayList<Integer> validNumbers = new ArrayList<>(Arrays.asList(1, 2, 3));
+        	ArrayList<Character> validLetters = new ArrayList<>(Arrays.asList('A', 'B', 'C'));
+        	ArrayList<Integer> validNumbers = new ArrayList<>(Arrays.asList(1, 2, 3));
 		
 		if (!validLetters.contains(Character.toUpperCase(input.charAt(0)))) {
 			isValid = false;
@@ -133,8 +133,8 @@ public class TicTacToe {
 	}
 	
 	static boolean promptForRestart(Scanner input) {
-	    System.out.println(Localization.PLAY_AGAIN.getLine());
-	    return input.next().equalsIgnoreCase("y");
+		System.out.println(Localization.PLAY_AGAIN.getLine());
+		return input.next().equalsIgnoreCase("y");
 	}
 	
 	public static void main(String[] args) {
